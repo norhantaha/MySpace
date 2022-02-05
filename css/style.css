@@ -1,0 +1,327 @@
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    color: cornsilk;
+    
+}
+header{
+    width: 100%;
+    background: url(../images/nasa-Q1p7bh3SHj8-unsplash.jpg)no-repeat center/cover;
+    min-height: 95vh;
+}
+.topnav{
+    min-height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+    z-index: 1;
+    background-color: #08243b;
+   
+}
+.logo i{
+    font-size: 250%;
+    text-align: center;
+    line-height: 50px;
+    width: 70px;
+    height: 40px;
+    z-index: 3;
+    margin: 0px;
+    padding: 0%;
+    color: cornsilk;
+}
+nav{
+    height: 40px;
+    width: 600px;
+    padding: 0%;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    
+}
+nav ul li a:hover{
+    color: #f39f38;
+
+}
+header > aside{
+    width: 450px;
+    padding: 10px;
+    height: 300px;
+    min-height: 350px;
+    display: flex;
+    align-items: baseline;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+.intro{
+    text-align: center;
+    text-transform: uppercase;
+    width: 450px;
+    height: 140px;
+    font-size: 240%;
+    line-height: 60px;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 2px  #f39f38;
+
+}
+h1 > span{
+    text-align: center;
+    font-size: 135%;
+}
+.description{
+    width: 450px;
+    height: 150px;
+    margin-top: 20px;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace; 
+}
+#explore{
+    min-height: 700px;
+    width: 95%;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: #f39f38;
+    font-size: 200%;
+}
+.cards1{
+    display: flex;
+    flex:wrap;
+    min-height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.cards1 > div{
+    min-height: 350px;
+    margin: auto;
+    position: relative;
+}
+.card1{
+    background: url(../images/1.jpg) no-repeat center/cover;
+    width: 355px;
+    position: absolute;
+}
+
+
+.card2{
+    background: url(../images/2.jpg) no-repeat center/cover;
+    width: 355px;
+}
+.card3{
+    background: url(../images/3.jpg) no-repeat center/cover;
+    width: 355px;
+}
+.card4{
+    background: url(../images/4.jpg) no-repeat center/cover;
+    width: 355px;
+}
+.cards2{
+    display: flex;
+    flex:wrap;
+    min-height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.cards2 > div{
+    min-height: 350px;
+    margin: auto;
+}
+.card5{
+    background: url(../images/5.jpg) no-repeat center/cover;
+    width: 355px;
+}
+.card6{
+    background: url(../images/6.jpg) no-repeat center/cover;
+    width: 355px;
+}
+.card7{
+    background: url(../images/7.jpg) no-repeat center/cover;
+    width: 355px;
+}
+.card8{
+    background: url(../images/8.jpg) no-repeat center/cover;
+    width: 355px;
+}
+.newsblock{
+    width: 95%;
+    display: flex;
+    flex:wrap;
+    min-height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    color: #000000;
+}
+
+.newsblock > div{
+    height: 350px;
+    margin: auto;
+}
+.news1{
+    background: url(../images/nasa1.jpg) no-repeat center/cover;
+    width: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+.news2{
+    background: url(../images/nasa2.jfif) no-repeat center/cover;
+    width: 700px;
+    display: flex;
+    align-items: flex-end;
+}
+.news3{
+    background: url(../images/nasa3.jpg) no-repeat center/cover;
+    width: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+p{
+    background: rgba(201, 197, 182, 0.712);
+    width: 100%;
+    height: 40px;
+    margin: 0%;
+
+}
+p a{
+color: #000000;     
+}
+p a:hover{
+    color: #f39f38;
+}
+.news4{
+    background: url(../images/nasa4.jpg) no-repeat center/cover;
+    width: 700px;
+    display: flex;
+    align-items: flex-end;
+}
+.news5{
+    background: url(../images/nasa5.jpg) no-repeat center/cover;
+    width: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+.news6{
+    background: url(../images/nasa6.jpg) no-repeat center/cover;
+    width: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+.grid-container {
+    display: flex;
+    grid-template-columns: auto auto auto;
+    background-color: #08243b;
+   width: 100%;
+   flex-wrap: wrap;
+}
+#gallery{
+    width: 75%;
+    margin: auto;
+}
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 2px;
+    width: 360px;
+    margin: auto;
+    height: 300px;
+    text-align: center;
+}
+.grid-item > img{
+    width: 100%;
+    height: 100%;
+}
+
+#store{
+    width: 85%;
+    margin: auto;
+}
+.grid-container2 {
+    display: flex;
+    background-color: #08243b;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.grid-item2 {
+    padding: 2px;
+    width: 360px;
+    margin: auto;
+    height: 300px;
+    text-align: center;
+}
+.grid-item2 > img{
+    width: 100%;
+    height: 100%;
+}
+.button {
+    padding: 2px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 30px;
+    text-align: center;
+}
+button:hover{
+    color: #f39f38;
+}
+#contactus{
+    background-color:#08243b;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    line-height: 30px;
+}
+#contactus a{
+    color: #f39f38;
+    
+    border-radius: 50%;
+    padding: 8px 8px;
+}
+.greyspan{
+    color: rgb(185, 185, 185);
+    font-size:medium;
+    
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+.socialicons i{
+    color: white;
+    border: 0px;
+}
